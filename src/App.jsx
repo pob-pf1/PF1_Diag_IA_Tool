@@ -527,7 +527,7 @@ const S = {
   frame: { background: PAPER, border: "1px solid " + LINE, borderRadius: 18, overflow: "hidden", boxShadow: "0 20px 50px -28px rgba(15,31,61,0.28)" },
   header: { display: "flex", justifyContent: "space-between", alignItems: "center", padding: "16px 24px", borderBottom: "1px solid " + LINE, background: WASH, flexWrap: "wrap", gap: 10 },
   brand: { display: "flex", alignItems: "center" },
-  brandLogo: { height: 32, width: "auto", display: "block" },
+  brandLogo: { height: 100, width: "auto", display: "block" },
   steps: { display: "flex", gap: 6, flexWrap: "wrap" },
   stepDot: { fontSize: 11, color: MUTE, padding: "4px 10px", borderRadius: 20, border: "1px solid " + LINE, fontWeight: 500 },
   stepDotOn: { color: PAPER, background: NAVY, borderColor: NAVY },
